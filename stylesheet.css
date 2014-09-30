@@ -1,0 +1,55 @@
+heading{
+	font-weight: bold;
+}
+img{
+	height:210px;
+	width:200px;
+	position:absolute;
+	margin-left:500px;
+	border: 2px solid gray;
+	padding:8px;
+	-webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+body{
+	background-image: url("http://sharoneasley.homestead.com/files/paper_background.gif");
+}
+#header{
+	float:left;
+	border-bottom:5px solid gray;
+	height: 60px;
+	width:500px;
+	margin-bottom:10px;
+}
+#block1{
+	clear:left;
+	float: left;
+	height: 100px;
+	width:100px;
+	text-align:right;
+	margin: 5px;
+	border-right: 5px solid gray;
+	padding-right: 10px;
+	font-weight: bold;
+}
+#block2{
+	float: left;
+	height: auto;
+	width:auto;
+	margin: 5px;
+}
+#info{
+	clear:left;
+	height:auto;
+	width:500px;
+}
+#objective{
+	font-style:oblique;
+}
+#container{
+	margin: 0 auto;
+	width:700px;
+}
